@@ -1,0 +1,268 @@
+Sample_ID,Source,Collection,Binder_ID,Manufacturer,Origin,Type,Subtype,Apparent_Colour,Details,Scanned
+CAC_1_1,Microtraces LTD,Arbidar Natural Fibre Collection,1.1,N/A,Natural,Cellulose,Cacao,N/A,seed husks,No
+COI_1_2,Microtraces LTD,Arbidar Natural Fibre Collection,1.2,N/A,Natural,Cellulose,Coir,N/A,coconut husk fiber,No
+FLX_1_3,Microtraces LTD,Arbidar Natural Fibre Collection,1.3,N/A,Natural,Cellulose,Flax,N/A,line fiber,No
+FLX_1_4,Microtraces LTD,Arbidar Natural Fibre Collection,1.4,N/A,Natural,Cellulose,Flax,Bleached,"silver, bleached, from France",No
+FLX_1_5,Microtraces LTD,Arbidar Natural Fibre Collection,1.5,N/A,Natural,Cellulose,Flax,N/A,"tow, natural color",No
+HMP_2_1,Microtraces LTD,Arbidar Natural Fibre Collection,2.1,N/A,Natural,Cellulose,Hemp,N/A,"bast, not hackled (combed)",No
+HMP_2_2,Microtraces LTD,Arbidar Natural Fibre Collection,2.2,N/A,Natural,Cellulose,Hemp,N/A,fiber,No
+HMP_2_3,Microtraces LTD,Arbidar Natural Fibre Collection,2.3,N/A,Natural,Cellulose,Hemp,N/A,hurds (core),No
+JUT_3_1,Microtraces LTD,Arbidar Natural Fibre Collection,3.1,N/A,Natural,Cellulose,Jute,N/A,burlap,Yes
+JUT_3_2,Microtraces LTD,Arbidar Natural Fibre Collection,3.2,N/A,Natural,Cellulose,Jute,N/A,fiber,Yes
+KPK_3_3,Microtraces LTD,Arbidar Natural Fibre Collection,3.3,N/A,Natural,Cellulose,Kapok,N/A,kapok fibre,No
+KNF_4_1,Microtraces LTD,Arbidar Natural Fibre Collection,4.1,N/A,Natural,Cellulose,Kenaf,N/A,core,No
+LIN_4_2,Microtraces LTD,Arbidar Natural Fibre Collection,4.2,N/A,Natural,Cellulose,Linen,N/A,hand spun thread,Yes
+LIN_4_3,Microtraces LTD,Arbidar Natural Fibre Collection,4.3,N/A,Natural,Cellulose,Linen,N/A,shoemakers thread,Yes
+RAF_5_1,Microtraces LTD,Arbidar Natural Fibre Collection,5.1,N/A,Natural,Cellulose,Rafia,N/A,,No
+RAM_5_2,Microtraces LTD,Arbidar Natural Fibre Collection,5.2,N/A,Natural,Cellulose,Ramie,N/A,"silver, from China",No
+SIS_5_3,Microtraces LTD,Arbidar Natural Fibre Collection,5.3,N/A,Natural,Cellulose,Sisal,N/A,"""rope""",No
+COT_6_1,Microtraces LTD,Arbidar Natural Fibre Collection,6.1,N/A,Natural,Cellulose,Cotton,N/A,cord,Yes
+COT_6_2,Microtraces LTD,Arbidar Natural Fibre Collection,6.2,N/A,Natural,Cellulose,Cotton,Natural Brown,natural brown fiber,Yes
+COT_6_3,Microtraces LTD,Arbidar Natural Fibre Collection,6.3,N/A,Natural,Cellulose,Cotton,Natural Green,natural green fiber,No
+COT_6_4,Microtraces LTD,Arbidar Natural Fibre Collection,6.4,N/A,Natural,Cellulose,Cotton,N/A,"raw, boll",No
+COT_7_1,Microtraces LTD,Arbidar Natural Fibre Collection,7.1,N/A,Natural,Cellulose,Cotton,N/A,rug wrap,Yes
+COT_7_2,Microtraces LTD,Arbidar Natural Fibre Collection,7.2,N/A,Natural,Cellulose,Cotton,N/A,"seed, with lint",No
+ALP_7_3,Microtraces LTD,Arbidar Natural Fibre Collection,7.3,N/A,Natural,Protein,Alpaca,Natural Charcoal,natural charcoal,No
+ALP_7_4,Microtraces LTD,Arbidar Natural Fibre Collection,7.4,N/A,Natural,Protein,Alpaca,Natural Ivory,natural ivory,No
+CAM_8_2,Microtraces LTD,Arbidar Natural Fibre Collection,8.2,N/A,Natural,Protein,Camel,Blonde,blonde,No
+CAM_8_3,Microtraces LTD,Arbidar Natural Fibre Collection,8.3,N/A,Natural,Protein,Camel,N/A,down,No
+GOT_8_4,Microtraces LTD,Arbidar Natural Fibre Collection,8.4,N/A,Natural,Protein,Goat,N/A,"Angora, wool",No
+GOT_9_1,Microtraces LTD,Arbidar Natural Fibre Collection,9.1,N/A,Natural,Protein,Goat,N/A,"Cashmere, colored, from Montana",No
+GOT_9_2,Microtraces LTD,Arbidar Natural Fibre Collection,9.2,N/A,Natural,Protein,Goat,N/A,"Cashmere, from China",No
+GOT_9_3,Microtraces LTD,Arbidar Natural Fibre Collection,9.3,N/A,Natural,Protein,Goat,N/A,"Cashmere, from Montana",No
+GOT_9_4,Microtraces LTD,Arbidar Natural Fibre Collection,9.4,N/A,Natural,Protein,Goat,Natural White,"Mohair, natural white, from England",No
+GOS_10_1,Microtraces LTD,Arbidar Natural Fibre Collection,10.1,N/A,Natural,Protein,Goose,N/A,down,No
+LLM_10_2,Microtraces LTD,Arbidar Natural Fibre Collection,10.2,N/A,Natural,Protein,Llama,N/A,wool,No
+MUX_10_3,Microtraces LTD,Arbidar Natural Fibre Collection,10.3,N/A,Natural,Protein,Musk Ox,N/A,Qiviut,No
+RAB_10_4,Microtraces LTD,Arbidar Natural Fibre Collection,10.4,N/A,Natural,Protein,Rabbit,N/A,"Angora, wool",No
+YAK_11_1,Microtraces LTD,Arbidar Natural Fibre Collection,11.1,N/A,Natural,Protein,Yak,N/A,down,No
+YAK_11_2,Microtraces LTD,Arbidar Natural Fibre Collection,11.2,N/A,Natural,Protein,Yak,N/A,hair,No
+WOL_11_3,Microtraces LTD,Arbidar Natural Fibre Collection,11.3,N/A,Natural,Protein,Wool,N/A,Cooperworth sheep wool,Yes
+WOL_11_4,Microtraces LTD,Arbidar Natural Fibre Collection,11.4,N/A,Natural,Protein,Wool,N/A,Cormo sheep,Yes
+WOL_12_1,Microtraces LTD,Arbidar Natural Fibre Collection,12.1,N/A,Natural,Protein,Wool,N/A,Corriedale sheep,Yes
+WOL_12_2,Microtraces LTD,Arbidar Natural Fibre Collection,12.2,N/A,Natural,Protein,Wool,N/A,Icelandic sheep,Yes
+WOL_12_3,Microtraces LTD,Arbidar Natural Fibre Collection,12.3,N/A,Natural,Protein,Wool,N/A,Lincoln sheep,Yes
+WOL_12_4,Microtraces LTD,Arbidar Natural Fibre Collection,12.4,N/A,Natural,Protein,Wool,N/A,Merino sheep and rayon,Yes
+WOL_13_1,Microtraces LTD,Arbidar Natural Fibre Collection,13.1,N/A,Natural,Protein,Wool,N/A,Navajo-Churro sheep,Yes
+WOL_13_2,Microtraces LTD,Arbidar Natural Fibre Collection,13.2,N/A,Natural,Protein,Wool,N/A,Polwarth sheep,Yes
+WOL_13_3,Microtraces LTD,Arbidar Natural Fibre Collection,13.3,N/A,Natural,Protein,Wool,N/A,Romney sheep,Yes
+WOL_13_4,Microtraces LTD,Arbidar Natural Fibre Collection,13.4,N/A,Natural,Protein,Wool,N/A,Shetland sheep,Yes
+WOL_14_1,Microtraces LTD,Arbidar Natural Fibre Collection,14.1,N/A,Natural,Protein,Wool,N/A,Suffolk sheep,Yes
+WOL_14_2,Microtraces LTD,Arbidar Natural Fibre Collection,14.2,N/A,Natural,Protein,Wool,N/A,Targhee sheep,Yes
+WOL_14_3,Microtraces LTD,Arbidar Natural Fibre Collection,14.3,N/A,Natural,Protein,Wool,N/A,"sheep, crepe",Yes
+WOL_14_4,Microtraces LTD,Arbidar Natural Fibre Collection,14.4,N/A,Natural,Protein,Wool,N/A,"sheep, felt, handmade",Yes
+WOL_15_1,Microtraces LTD,Arbidar Natural Fibre Collection,15.1,N/A,Natural,Protein,Wool,Natural Black,"sheep, natural black roving",Yes
+WOL_15_2,Microtraces LTD,Arbidar Natural Fibre Collection,15.2,N/A,Natural,Protein,Wool,N/A,"sheep, scoured",Yes
+WOL_15_3,Microtraces LTD,Arbidar Natural Fibre Collection,15.3,N/A,Natural,Protein,Wool,N/A,"sheep, very fine",Yes
+WOL_15_4,Microtraces LTD,Arbidar Natural Fibre Collection,15.4,N/A,Natural,Protein,Wool,N/A,"Wool, sheep, w/much darker fibers, natural",Yes
+SIL_16_2,Microtraces LTD,Arbidar Natural Fibre Collection,16.2,N/A,Natural,Protein,Silk,N/A,Bombyx mori,Yes
+SIL_16_3,Microtraces LTD,Arbidar Natural Fibre Collection,16.3,N/A,Natural,Protein,Silk,N/A,"Bombyx mori, yarn",Yes
+SIL_16_4,Microtraces LTD,Arbidar Natural Fibre Collection,16.4,N/A,Natural,Protein,Silk,Dyed,dyed,Yes
+SIL_17_1,Microtraces LTD,Arbidar Natural Fibre Collection,17.1,N/A,Natural,Protein,Silk,N/A,"raw, thrown",Yes
+SIL_17_2,Microtraces LTD,Arbidar Natural Fibre Collection,17.2,N/A,Natural,Protein,Silk,N/A,thread blended with Rayon,No
+SIL_17_3,Microtraces LTD,Arbidar Natural Fibre Collection,17.3,N/A,Natural,Protein,Silk,N/A,"Tussah (wild), blended with camel hair",Yes
+SIL_17_4,Microtraces LTD,Arbidar Natural Fibre Collection,17.4,N/A,Natural,Protein,Silk,N/A,Tussah from India,Yes
+SIL_18_1,Microtraces LTD,Arbidar Natural Fibre Collection,18.1,N/A,Natural,Protein,Silk,N/A,"wild, two colors, from India",Yes
+FLX_19_1,Microtraces LTD,Arbidar Natural Fibre Collection,19.1,N/A,Natural,Cellulose,Flax,N/A,"straw paper, made in France",No
+HMP_19_3,Microtraces LTD,Arbidar Natural Fibre Collection,19.3,N/A,Natural,Cellulose,Hemp,N/A,"paper, made in USA",No
+KNF_19_4,Microtraces LTD,Arbidar Natural Fibre Collection,19.4,N/A,Natural,Cellulose,Kenaf,N/A,paper,No
+ACT_1,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,1,Canadian Celanese Celachrome®,Man-made,Cellulose acetate,Cellulose diacetate (secondary acetate),Green,Secondary acetate. Dyed green.,Yes
+ACT_2,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,2,Celanese Arnel®,Man-made,Cellulose acetate,Cellulose triacetate,N/A,Triacetate. Bright. (150 2Z 40).,Yes
+ACT_3,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,3,Eastman Fibers Estron®,Man-made,Cellulose acetate,Cellulose diacetate (secondary acetate),N/A,Secondary acetate.,Yes
+ACT_4,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,4,FMC American,Man-made,Cellulose acetate,Cellulose diacetate (secondary acetate),N/A,Secondary acetate. Bright.,Yes
+ACR_5,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,5,Asahi Chemical Co. Cashmilon® AB1,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Super Bright. PAN + MA + terpolymer (Nitric acid solvent). No DMF solvent residue. 3d x 64mm.,Yes
+ACR_6,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,6,Asahi Chemical Co. Cashmilon® FK,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Round X-S. Semi-dull. PAN + AA + MA (Nitric acid solvent).,No
+ACR_7,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,7,Asahi Chemical Co. Cashmilon® G4K,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Bicomponent. PAN : MA/PAN : AA (Nitric acid solvent).,No
+ACR_8,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,8,Bayer Dralon® 900L,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/VA copolymer,Red,Dyed red. Normal PAN + VA. Second most common acrylic.,No
+ACR_9,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,9,Bayer Dralon® A,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA + basic dye site. 6.7dtex x 100mm. Add dyeing.,Yes
+ACR_10,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,10,Bayer Dralon® A,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA (DMF solvent). 2.2dtex x 60mm. Increased basic dyeability.,No
+ACR_11,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,11,Bayer Dralon® X,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA + aromatic sulphonate (DMF solvent). 3.3dtex x 100mm. Most common type of Dralon.,No
+ACR_12,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,12,Courtaulds Courtelle® M/ZS,Man-made,Acrylic (≥ 85% acrylonitrile),Unspecified PAN (acrylic) copolymer,N/A,Contains zinc and silver. 1.7dtex x 38mm. Use: medical purposes.,No
+ACR_13,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,13,Cyanamid Creslan® T61GS,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,"PAN + MMA copolymer. No DMF residue. Semi-dull. 3.0dpf x 2.5"". Use: apparel. Now probably produced by another name by Sterling.",No
+ACR_14,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,14,Cyanamid Creslan® T61T,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,"PAN + MMA copolymer. No DMF residue. Semi-dull. 3.0dpf x 2.5"". Use: apparel. Now probably produced by another name by Sterling.",No
+ACR_15,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,15,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 1.3dtex. 1 of 9 in a set of fibers to illustrate denier range.,No
+ACR_16,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,16,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA (sodium thiocyanate solvent). 1.7dtex. 2 of 9 in a set of fibers to illustrate denier range. This is different from fibers 15 and 17-23.,No
+ACR_17,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,17,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 2.2dtex. 3 of 9 in a set of fibers to illustrate denier range.,Yes
+ACR_18,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,18,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 3.0dtex. 4 of 9 in a set of fibers to illustrate denier range.,No
+ACR_19,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,19,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 4.1dtex. 5 of 9 in a set of fibers to illustrate denier range.,No
+ACR_20,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,20,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 5.4dtex. 6 of 9 in a set of fibers to illustrate denier range.,No
+ACR_21,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,21,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 7.8dtex. 7 of 9 in a set of fibers to illustrate denier range.,No
+ACR_22,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,22,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 12dtex. 8 of 9 in a set of fibers to illustrate denier range.,No
+ACR_23,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,23,Cyanenka SA Crilenka®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MMA copolymer,N/A,PAN + MMA (sodium thiocyanate solvent). 18dtex. 9 of 9 in a set of fibers to illustrate denier range.,No
+ACR_24,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,24,Du Pont Orlon® 42,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,"Turbo tops. Semi-dull. PAN + MA (DMF solvent). 4.5dpf. Uses: hand-knitting yarns, sweaters and hosiery.",No
+ACR_26,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,26,Du Pont Orlon® 75,Man-made,Acrylic (≥ 85% acrylonitrile),Unspecified PAN (acrylic) copolymer,N/A,"Bright. 3dpf x 60mm. Regular for cotton spinning systems. Uses: hand-knitting yarns, sweaters and hosiery.",No
+ACR_27,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,27,Hoechst Dralon® 20,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,White,"Dry spun. White. Bright + optical brightener. PAN + MA + aromatic sulphonate (DMF solvent). 3.3dtex x 60mm. Uses: curtains, table cloths, upholstery, blankets, rugs. Most common type of Dralon.",No
+ACR_28,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,28,Hoechst Dralon® 21,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,"Dry spun. Raw. Bright. PAN + MA + aromatic sulphonate (DMF solvent). 6.7dtex x 60mm. Uses: knitted goods, blankets, rugs.",No
+ACR_29,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,29,Hoechst Dralon® 22,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,White,"Dry spun. White. Matt. PAN + MA + aromatic sulphonate (DMF solvent). 3.3dtex, 90dtex. Uses: knitted outerwear, upholstery fabrics.",No
+ACR_30,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,30,Hoechst Dralon® 26,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,White,"Wet spun. Bright. White. PAN + MA + aliphatic sulphonate termonomer (DMF solvent). 3.3dtex x 60mm. Uses: knitted goods, pile fabrics",No
+ACR_31,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,31,Hoechst Dralon® 31,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Dry spun. Raw. Bright. PAN + MA + aliphatic sulphonate termonomer (DMF solvent). 3.3dtex x 60mm. Use: upholstery fabric.,No
+ACR_32,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,32,Hoechst Dralon® 37,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,White,Dry spun. White. Bright. PAN + MA + aliphatic sulphonate termonomer (DMF solvent). 2.2dtex x 50mm. Uses: blankets and knitted pile fabrics.,No
+ACR_33,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,33,Hoechst Dralon® 44,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,White,Dry spun. White. Bright. PAN + MA + aliphatic sulphonate termonomer (DMF solvent). 6.7dtex x 50mm. Uses: furniture or outer clothing.,No
+ACR_34,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,34,Hoechst Dralon® 65,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Pigmented. PAN + MA (DMF solvent). For outdoor use.,No
+ACR_35,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,35,Hoechst Dralon® 81,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Dry spun. Raw. Matt. PAN + MA + aromatic sulphonate (DMF solvent). 9.0dtex x 100mm. Used as carpet fiber.,No
+ACR_36,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,36,Hoechst Dralon® 86,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Dry spun. Raw. PAN + MA + aromatic sulphonate (DMF solvent). 9.0dtex x 100mm. Use: carpet fiber.,No
+ACR_37,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,37,Hoechst Dralon® 10,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Raw. Bright. PAN + MA + aliphatic sulphonate termonomer (DMF solvent). Very low MA level; 6mm. Asbestos substitute.,No
+ACR_38,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,38,Mann Mann® 505,Man-made,Acrylic (≥ 85% acrylonitrile),Unspecified PAN (acrylic) copolymer,Green,"Producer dyed. PAN homopolymer. Colors: Bone, Noble Green, Spruce, Wash Denim, Royal Purple, Burgundy, Brite Fuchsia, Scarlet, Navy.",No
+ACR_39,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,39,Markische Faser Wolpryla® 65,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA. No DMF residue.,No
+ACR_40,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,40,Monsanto Acrilan® D57,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/VA copolymer,N/A,"Bicomponent on PAN + VA base. 6d. x 5.""",No
+ACR_41,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,41,Snia Velicren®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Semi-dull with TiO₂. PAN(89%) + MA (DMF solvent). 5d. x 60mm.,No
+ACR_42,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,42,Snia Velicren®,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Bright. PAN(89%) + MA (DMF solvent). 5d. x 60mm.,No
+ACR_43,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,43,Snia Velicren® Bicomponent,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Bicomponent. PAN + MA + aromatic sulphonate (DMF solvent). 3.3d. low.,No
+ACR_44,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,44,Solutia Acrilan® B16,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/VA copolymer,N/A,PAN + VA. 3d.,No
+ACR_45,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,45,Toho Rayon Beslon® A 240,Man-made,Acrylic (≥ 85% acrylonitrile),Unspecified PAN (acrylic) copolymer,N/A,Acid-dyeable acrylic fiber. PAN + base termonomer (zinc chloride solvent).,No
+ACR_46,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,46,Toho Rayon Beslon® F 040,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Bicomponent. Random polymer mix. PAN + AA + MA (zinc chloride solvent).,No
+ACR_47,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,47,Toho Rayon Beslon® R 340,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,Superia with increased basic dyeability. PAN + MA (zinc chloride solvent).,No
+ACR_48,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,48,Toho Rayon Beslon® W 241,Man-made,Acrylic (≥ 85% acrylonitrile),PAN/MA copolymer,N/A,PAN + MA (zinc chloride solvent). No DMF solvent residue.,No
+ARM_49,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,49,Du Pont Kevlar® 29 T964,Man-made,Aramid (Aromatic polyamide),Para-aramid (Kevlar®),N/A,"200d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 29 is used for ballistic apparel, ropes, thermal and cut resistant gloves.",No
+ARM_50,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,50,Du Pont Kevlar® 49 T968,Man-made,Aramid (Aromatic polyamide),Para-aramid (Kevlar®),N/A,"195d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 49 is used for reinforcing plastic composites in aircraft, marine and sporting applications.",No
+ARM_51,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,51,Du Pont Nomex® OG 1,Man-made,Aramid (Aromatic polyamide),Aramid,N/A,Dogbone X-S. 200 dpf. Used especially in applications requiring resistance to high temperature.,No
+ARM_52,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,52,Du Pont Nomex® T450,Man-made,Aramid (Aromatic polyamide),Meta-aramid (Nomex®),N/A,100% Nomex. Staple. Used especially in applications requiring resistance to high temperature.,No
+CAR_53,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,53,Toray Torayca®,Man-made,Carbon,Carbon,N/A,"Round. 6 micrometer diameter, brittle.",No
+CLF_54,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,54,FMC American Vinyon HH,Man-made,Chlorofiber,Chlorofiber,N/A,"5.5d. x 2. Obsolete.""",No
+LYO_55,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,55,Courtaulds Tencel®,Man-made,Regenerated cellulose (Rayon),Lyocell,N/A,Round X-S. Staple.,Yes
+LYO_56,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,56,Lenzing Lyocell by Lenzing®,Man-made,Regenerated cellulose (Rayon),Lyocell,N/A,Round X-S.; slightly irregular diameter.,Yes
+MAC_57,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,57,Bayer Verel® C,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VDC copolymer,N/A,"PAN + VDC (37%) (DMF solvent). No ester, aliphatic sulphonate dye site. Obsolete.",Yes
+MAC_58,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,58,Eastman Fibers Verel® Type CA,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,White,White. Peanut X-S. Bright. 16dpf. Use: Floor coverings.,Yes
+MAC_59,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,59,Hoechst Dolan® 88,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,N/A,PAN + VC(15%) + MA(3%) + aliphatic sulphonate dye site. Obsolete.,Yes
+MAC_60,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,60,Lenzing Lenzing® Modal,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,Black,Bright. Black spun dyed. Modal. 3.3dtex x 80mm.,Yes
+MAC_61,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,61,Monsanto Elura®,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VBr copolymer,Brown,Brown. PAN + VBr + aromatic sulphonate dye site. Wig fiber. Obsolete.,Yes
+MAC_62,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,62,Snia Velicren® FR,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VDC copolymer,N/A,Ribbon X-S. PAN + VDC + aromatic sulphonate dye site (DMF solvent). 16.7dtex.,Yes
+MAC_63,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,63,Solutia SEF Modacrylic,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,Dyed,Dyed SEF color: Toasty Beige.,No
+MAC_64,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,64,Toray Unfla®,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VDC copolymer,N/A,PAN + VDC + high ester + aliphatic sulphonate dye site. No DMF residue. Wig fiber. Obsolete.,No
+MAC_65,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,65,Toray Unfla®,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,N/A,Undyed. Raw stock. Obsolete.,No
+MAC_66,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,66,Union Carbide Dynel® Type 180,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,N/A,3d. Staple.,Yes
+MAC_67,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,67,Waxman Kanecaron® AHD HS,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VA/VC copolymer,Green,"Dope dyed, high shrink. Green. FR. PAN + VA + VC. 4.0d.",No
+MAC_68,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,68,Waxman Kanecaron® RBM,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VA/VC copolymer,Black,Flat X-S. Black. PAN + VA + VC. 15.0d. Use: Fake fur.,No
+MAC_69,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,69,Waxman Kanecaron® SP,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VA/VC copolymer,N/A,Semi-dull. PAN + VA + VC. 3.0d. x 64mm.,No
+MAC_70,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,70,Waxman Kanecaron® SRY,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VA/VC copolymer,N/A,Dull. PAN + VA + VC + antimony trioxide. 1.7d x 38 mm.,No
+MAC_71,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,71,Waxman Kanecaron® SYS,Man-made,Modacrylic (35 - 85% acrylonitrile),PAN/VA/VC copolymer,N/A,"Very dull. PAN + VA + VC + antimony trioxide. 1.7d x 38mm. Uses: Upholstery, curtains.",No
+MAC_72,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,72,Waxman Kanecaron® SRB,Man-made,Modacrylic (35 - 85% acrylonitrile),Unspecified PAN (modacrylic) copolymer,N/A,Bright. PAN + VC. 5d. x 100mm. Use: Velour upholstery.,No
+MAC_73,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,73,Waxman Fibers Protex-M®,Man-made,Modacrylic (35 - 85% acrylonitrile),VDC copolymer,N/A,VDC + antimony trioxide. 3d. x 100mm.,No
+NYL_74,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,74,Allied Signal Fibers 1392MBH,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,"PA-6. Non-textured feeder yarn. It has not been heatset, twisted or heatset. 1 of 7 in a series of fiber processing techniques.",Yes
+NYL_75,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,75,Allied Signal Fibers 1392MBX,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. 2-ply cabled yarn. It has not been heatset. 2 of 7 in a series of fiber processing techniques.,Yes
+NYL_76,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,76,Allied Signal Fibers,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. 2-ply cabled and autoclave heat set yarn. 3 of 7 in a series of fiber processing techniques.,Yes
+NYL_77,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,77,Allied Signal Fibers,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Superba heat set 1190d. carpet yarn. No after-treatment. 4 of 7 in a series of fiber processing techniques.,Yes
+NYL_78,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,78,Allied Signal Fibers,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Dyed,"PA-6. Superba heat set 1190d. carpet yarn, dyed w/ a typical acid dye. 5 of 7 in a series of fiber processing techniques.",Yes
+NYL_79,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,79,Allied Signal Fibers,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Dyed,"PA-6. Superba heat set 1190d. carpet yarn. Dyed, treated w/ stainblocker. 6 of 7 in a series of fiber processing techniques.",No
+NYL_80,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,80,Allied Signal Fibers,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Dyed,"PA-6. Superba heat set 1190d. carpet yarn. Dyed, treated w/ stainblocker, fluorocarbon process. 7 of 7 in a series of fiber processing techniques.",No
+NYL_81,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,81,Allied Signal Fibers 1220 MBX,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Trilobal w/ 3 holes. BCF.,No
+NYL_82,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,82,Allied Signal Fibers Hydrofil®,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,"PA-6. A highly absorbent, quick drying fiber used for outerwear, gloves, hats, activewear.",No
+NYL_83,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,83,Allied Signal Fibers Patina®,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Pentalobal X-S. 20d./12fils. Use: lingerie. Fabric.,Yes
+NYL_84,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,84,Allied Signal Fibers T-280,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Trilobal X-S.,No
+NYL_85,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,85,Allied Signal Fibers T-288,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Trilobal X-S.,No
+NYL_86,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,86,Allied Signal Fibers T-716,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Trilobal X-S.,No
+NYL_87,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,87,BASF,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Red,"PA-6. Trilobal X-S. BASF Automotive Solution Dyed Nylon Staple. Pigments: carbazole red, perylene violet, carbon black.",No
+NYL_88,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,88,BASF H110S,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Dyed,"PA-6. Solution dyed. Pentagonial: hollow, 6 hole X-S. 17.4dpf. BCF. Multicolor yarn.",No
+NYL_89,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,89,Du Pont 2668AS,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1365d. BCF.,No
+NYL_90,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,90,Du Pont 4250,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1340d. BCF.,Yes
+NYL_91,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,91,Du Pont 496A,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Square 4 hole X-S. 1245d. BCF.,No
+NYL_92,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,92,Du Pont 566,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1005d. BCF.,No
+NYL_93,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,93,Du Pont 576,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1105d. BCF.,No
+NYL_94,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,94,Du Pont 608,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,"PA-66. Michelin Man"" trilobal X-S. 1405d. BCF.""",No
+NYL_95,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,95,Du Pont 696AS,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1105d. BCF.,No
+NYL_96,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,96,Du Pont 746,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1700d. BCF.,No
+NYL_97,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,97,Du Pont Microsupplex™,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",Yellow,"PA-66. Microfiber. Dyed yellow. Fabric. Small denier allows for fabrics to be made with twice the wind resistance of standard nylon. Uses: rainwear, sports apparel.",No
+NYL_98,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,98,Du Pont Options™ Stainmaster™ Yarn,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. DuPont color: Prairie. Carpet yarn with mixed X-S. and M.R. Smooth dull luster. Use: mid-high end market carpeting.,No
+NYL_99,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,99,Du Pont P1136,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,"PA-66. Trilobal jacks"" X-S. 1400d. BCF.""",No
+NYL_100,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,100,Du Pont P1236,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,"PA-66. Trilobal jacks"" X-S. Semi-dull. 750d. BCF.""",No
+NYL_101,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,101,Du Pont P1237 Footlights™,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",Green,PA-66. Trilobal X-S. w/ variable M.R. Zinc sulfide causes fiber to luminesce green 1295d. BCF.,No
+NYL_102,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,102,Du Pont P1261,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. 1395d. BCF.,No
+NYL_103,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,103,Du Pont Qiana® T472,Man-made,Polyamide (Nylon),Unspecified polyamide polymer,Orange,Special PA. Dyed orange. Trilobal w/ variable M.R. Fabric. Obsolete.,Yes
+NYL_104,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,104,ICI Quintesse® T323,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Circular X-S. 3.3dtex. Staple. Outer clothing.,No
+NYL_105,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,105,ICI Tactel® K000,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. BCF. Trade name now owned by DuPont.,No
+NYL_106,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,106,Monsanto Marvess®,Man-made,Polyamide (Nylon),Unspecified polyamide polymer,N/A,PA/PU bicomponent. Staple. Obsolete.,No
+NYL_107,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,107,Monsanto T0660,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_108,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,108,Monsanto T0802,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Mixed denier and M.R. carpet yarn. Staple.,No
+NYL_109,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,109,Monsanto T0810,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Round X-S. Staple.,No
+NYL_110,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,110,Monsanto T0811,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_111,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,111,Monsanto T08DV,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_112,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,112,Monsanto T1184,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_113,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,113,Monsanto T1943,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_114,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,114,Monsanto T19DV,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Delta X-S. Staple.,No
+NYL_115,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,115,Monsanto T2042,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_116,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,116,Monsanto T2093,Man-made,Polyamide (Nylon),"Polyamide 6,6 (PA 66)",N/A,PA-66. Trilobal X-S. Staple.,No
+NYL_117,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,117,Shaw Industries,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),Dyed,"PA-6. Colored mauve (solution dyed, i.e., pigmented). Trilobal X-S. 1452d. Yarn (64f.).",No
+NYL_118,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,118,Snia Lilion®,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,PA-6. Trilobal X-S. 9.3dtex x 165mm staple.,No
+NYL_119,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,119,Wellman Inc.,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,"PA-6. Round X-S. Semi-dull. 18dpf. x 5.25"" staple. M.P.=255C (manufacturer's data).",No
+NYL_120,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,120,Wellman Inc.,Man-made,Polyamide (Nylon),Polyamide 6 (PA 6),N/A,"PA-6. Trilobal X-S. BCF. 18dpf. x 7.5"" staple. M.P.=255C (manufacturer's data).",No
+OLE_121,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,121,Hercules Inc. T-150,Man-made,Polyolefin,Polypropylene (PP),Gray,Polypropylene. Gray. Swollen delta X-S. 20dpf. Hercules tater; called Fiber Visions. Staple.,Yes
+OLE_122,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,122,Hoechst Celanese Certran® HMPE,Man-made,Polyolefin,Polyethylene (PE),N/A,"High Molecular Weight Polyethylene. High strength, high crystallinity. BCF.",Yes
+OLE_123,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,123,Phillips Marvess®,Man-made,Polyolefin,Polypropylene (PP),White,Polypropylene. White. Delta X-S. 300d. BCF.,Yes
+OLE_124,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,124,Phillips Marvess®,Man-made,Polyolefin,Polypropylene (PP),Blue,"Polypropylene. Textured. Sample dyed one of the following Phillips colors: E03-Pink, G05-Airway Blue, F00-Bermuda brass, A17-Beige. Round X-S. and M.R. Actual X-S. is polygonal due to the false twist texturing process. BCF.",Yes
+OLE_125,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,125,Phillips Marvess®,Man-made,Polyolefin,Polypropylene (PP),N/A,Polypropylene. Phillips color: natural. Y modified X-S. 300d. BCF.,Yes
+OLE_126,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,126,Shaw Industries,Man-made,Polyolefin,Polypropylene (PP),Green,Polypropylene. Solution dyed green. Delta X-S. 1802d. Yarn (120f.).,Yes
+OLE_127,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,127,Shaw Industries,Man-made,Polyolefin,Polypropylene (PP),White,Polypropylene. White. Delta X-S. 2600d. Yarn (120f.).,Yes
+OLE_128,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,128,Shaw Industries,Man-made,Polyolefin,Polypropylene (PP),Blue,Polypropylene. Solution dyed blue. Delta X-S. 1100d. Yarn (60f.).,Yes
+PBI_129,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,129,Hoechst Celanese Polybenzimidazole,Man-made,PBI,PBI,N/A,Gold color. Fabric. 1.5dpf. 7.5oz/yd². High performance fiber will maintain integrity and pliability under heat and flame.,No
+PAC_130,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,130,Courtaulds Inidex®,Man-made,Polyacrylate,Polyacrylate,Pink,Polyacrylate. Pink. Staple. Industrial fiber.,No
+PAC_131,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,131,Hoechst Celanese Vectran® HS,Man-made,Polyacrylate,Polyacrylate,N/A,Liquid crystal polymer. High birefringence due to aromatic groups. BCF.,No
+PES_132,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,132,Albany International Primaloft®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"PET-microfiber. Mixture of microfibers (0.5d.) and supporting macrofibers. Used as water resistant synthetic down (similar to waterfowl down). Used as insulating material in comforters, parkas, sleeping bags.",No
+PES_133,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,133,Allied Signal Fibers Poly(ethylene naphthalenate),Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Drawn PEN. Cricular X-S. BCF. Used for tires, sailcloth.",Yes
+PES_134,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,134,Asahi Chemical Co. Nonbur® N90 (MAC),Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,VDC + aromatic sulphonate dye site. Staple.,No
+PES_135,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,135,Bayer Vestan® 16,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,PCDT. Staple.,Yes
+PES_136,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,136,Du Pont CoolMax®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),White,"White. Tetra-channel X-S. 100% Dacron®. Yarn. Uses: athletic wear, socks.",Yes
+PES_137,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,137,Du Pont Dacron® 242,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. Elongated 35%. Octalobal X-S. Semi-dull. BCF.,No
+PES_138,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,138,Du Pont Dacron® 50T,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. Draw elongated 123%. Round X-S. Semi-dull. BCF.,No
+PES_139,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,139,Du Pont Dacron® 56T,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. Polygonal X-S. due to texturing process. POY. BCF.,No
+PES_140,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,140,Du Pont Hollofil #766,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Not dyeable. 100% Dacron PET fiber. Hollow X-S. Staple. Diameter larger than Hollofil II. Fiber fluoresces with UV excitation.,No
+PES_141,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,141,Du Pont Hollofil 808®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"4 hole X-S. 5.5d. x 2"" staple. Made from 100% pre-consumer recycled PET. Uses: outerwear and sleeping bags.",Yes
+PES_142,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,142,Du Pont Hollofil ll®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Not dyeable. Hollow X-S. Staple. 100% Dacron PET fiber. Fiber fluoresces. Uses: outerwear, sleeping bags.",Yes
+PES_143,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,143,Du Pont Quallofil®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"4 hole X-S. 5.5d. x 3"" staple. Used for high performance camping and outerwear.",No
+PES_144,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,144,Enka Encron®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Pyloc process. Texturized. Semi-dull. BCF.,Yes
+PES_145,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,145,Enka Encron® 8,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Pyloc process. Octalobal X-S. BCF.,No
+PES_146,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,146,Fiber Extrusion F931,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Clear. 6d. x 2"" staple.",No
+PES_147,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,147,Fiber Extrusion F935,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Black,"Black. 6d. x 3"" staple.",No
+PES_148,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,148,Fiber Extrusion F939,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Semi-dull. 6d. x 3"" staple.",No
+PES_149,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,149,Grilon SA Grilene® W,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Raw White,Normal PET. Raw white. Bright. 17dtex x 80mm staple. Wool type.,No
+PES_150,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,150,Grilon SA Grilene® W,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Raw White,Normal PET. Raw white. Semi-dull. 4.4dtex. Staple.,No
+PES_151,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,151,Hoechst Trevira® 120,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Standard PET. Bright + Optical brightener. 1.2d. x 30mm staple. Uses: clothing and household fabrics, mixed with cotton.",No
+PES_152,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,152,Hoechst Trevira® 210,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Carrier free deep dyeable. 3.6dtex. Staple. Modified wool type.,No
+PES_153,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,153,Hoechst Trevira® 350,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Modified PET. Staple. Low pill, low tenacity. Used in blends.",No
+PES_154,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,154,Hoechst Trevira® 353,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PES. Trilobal X-S. Bright. 4dtex x 60mm staple. Used in blends for glitter effect.,No
+PES_155,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,155,Hoechst Trevira® 525,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Brown,Special type PET (100%) from dull raw material. Dyed brown. Matt. Octalobal X-S. 167dtex. Used as wrap yarn.,No
+PES_156,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,156,Hoechst Trevira® 550,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Modified PET, high shrink. Dull. 3.6dtex. Staple. Low M.P.",No
+PES_157,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,157,Hoechst Trevira® 561,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Red,"Normal PET. Jet Set. Dyed red. Trilobal X-S. 150dtex./72. Fabric. Used as an effect yarn, w/ viscose effects.",Yes
+PES_158,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,158,Hoechst Trevira® 561,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Red,Jet set. Dyed red. 110dtex. Yarn(48f).,No
+PES_159,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,159,Hoechst Trevira® 610,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Standard type, matt.",No
+PES_160,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,160,Hoechst Trevira® 630,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Modified PET. Disperse dyeable. Dull. 150dtex. Low M.P. Z twist yarn(20).,No
+PES_161,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,161,Hoechst Trevira® 640,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Modified PET. Yarn. Cationic dyeable. Low M.P.,No
+PES_162,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,162,Hoechst Trevira® 661,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Red,Normal PET. Dyed red. Yarn.,No
+PES_163,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,163,Hoechst Trevira® 684,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PES. Cotton type. Yarn.,No
+PES_164,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,164,Hoechst Trevira® 810,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,PBT. 17dtex x 150mm staple.,No
+PES_165,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,165,Hoechst Trevira® 813,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,PBT. Trilobal X-S. 6.7d. x 150mm staple. Use: carpet fiber.,No
+PES_166,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,166,Hoechst Trevira Dolan®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Blue,Normal PET. Texturized. Blue dyed. Yarn.,No
+PES_167,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,167,Hoechst Celanese #2359 - Bicomponent,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Polyester core, co-polyester sheath. 2.0d. x 1.5"" staple.",No
+PES_168,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,168,Hoechst Celanese 129S,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Pentalobal. 6.0d. Staple.,No
+PES_169,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,169,ICI Mitrelle® K1010,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. Filament.,No
+PES_170,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,170,ICI Mitrelle® silk fabric,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Purple,Normal PET. Dyed purple. Yarn.,No
+PES_171,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,171,ICI Terinda® Suede Fabric,Man-made,Polyester,Poly(ethylene terephthalate) (PET),Red,Normal PET. Dyed red. Fabric.,No
+PES_172,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,172,ICI Terinda® T5001,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. Filament.,No
+NYL_173,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,173,ICI Timbrelle®,Man-made,Polyamide (Nylon),Unspecified polyamide polymer,Dyed,Mélange dyed. Use: carpet fiber.,No
+PES_174,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,174,ICI Fibers Epitropic® PET Type 745,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Conductive fiber. Carbon coated. 3.3dtex x 75mm staple. Obsolete.,No
+PES_175,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,175,Shaw Industries,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Grlege. 1455d. Yarn (80f.).,No
+PES_176,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,176,Shaw Industries,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Beige. 1460d. Yarn (80f.).,No
+PES_177,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,177,Snia Wistel® C,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. 13.2dtex x 60mm staple.,No
+PES_178,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,178,Snia Wistel® S,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Normal PET. 13.2dtex x 60mm staple.,No
+PES_179,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,179,Unitika A-Telluna®,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Copolymer terephthalic acid + ethylene glycol + p-hydroxybenzoic acid. Staple.,No
+PES_180,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,180,Unitika H 38,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Conjugate: 2 types of PES. Hollow X-S. Staple for wadding.,No
+PES_181,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,181,Unitika P 88,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Conjugate: 2 types of PES. Trilobal X-S. Staple. Use: carpet fiber.,No
+PES_182,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,182,Wellman Heplalobal,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Heptalobal X-S. POY. BCF.,No
+PES_183,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,183,Wellman PET,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Recycled polyester. Use: carpet fiber.,No
+PES_184,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,184,Wellman Inc.,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,Non-carrier dye. Bright. Trilobal X-S. 12dpf. Staple.,No
+PES_185,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,185,Wellman Inc.,Man-made,Polyester,Poly(ethylene terephthalate) (PET),N/A,"Bright. Triolbabl X-S. 15dpf. x 7.5"" staple. M.P.=250C (manufacturer's data).",No
+RAY_186,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,186,Accordis Fibers Danufil® F,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,Black,Black spun dyed. Bright. 1.7dtex x 40mm staple.,Yes
+LYO_187,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,187,Courtaulds Tencel®,Man-made,Regenerated cellulose (Rayon),Lyocell,N/A,This fiber is a regenerated cellulose. Samples were prepared by deknitting denim fabric.,Yes
+RAY_188,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,188,Courtaulds Viloft® B4,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,Bleached,High shrink. Bleached. Dull. 1.5dtex x 38mm staple.,Yes
+RAY_189,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,189,Courtaulds Sarille® DV,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,Flame retardant. Dull. 2.4dtex x 32mm staple.,Yes
+RAY_190,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,190,Courtaulds Vincel® Modal,Man-made,Regenerated cellulose (Rayon),Modal,N/A,Modal. Bright. 1.7dtex x 38mm staple.,Yes
+RAY_191,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,191,FMC American Fiber 40 SN 2556,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,High wet modulus. Rounded X-S. 1.5d. Staple.,Yes
+RAY_192,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,192,FMC American Fiber 410 SN 2452,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,Black,"Spun dyed black. 1.5 d. x 1 9/16"" staple.",Yes
+RAY_193,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,193,FMC American Fiber 43,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,"High wet modulus. Round X-S. Bright. 1.0d. x 1 9/16"" staple.",Yes
+RAY_194,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,194,FMC American PFR Rayon,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,"Flame retardant. 3.0d. x 2"" staple.",Yes
+RAY_195,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,195,FMC American Rayon,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,Blue,"Dyed sapphire blue. Irregular X-S. 3.0d. x 2"" staple.",Yes
+RAY_196,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,196,FMC American Rayon,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,Super Crimp. Bright. 8.0d. Staple.,Yes
+RAY_197,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,197,Hoechst AG Danufil®,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,Irregular X-S. 1.7dtex x 40mm staple.,Yes
+RAY_198,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,198,Lenzing AG Tapan®,Man-made,Regenerated cellulose (Rayon),Unspecified rayon,N/A,Bright. 8.9dtex. Carpet fiber.,Yes
+SPX_199,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,199,Du Pont Lycra® 126,Man-made,Elastane,Polyurethane (PU),N/A,"470dtex. Staple. Uses: Elastic fabrics including foundation garments, swimwear, stretch fabrics.",No
+SUL_200,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,200,Amoco Ryton™,Man-made,Sulfar,Sulfar,N/A,"Tan (natural). 2.7d. x 3.25"" staple. M.P.=285C (manufacturer's data). Used in applications where heat and chemical resistance are crucial.",No
+CLF_201,Microtraces LTD,Microtrace Forensic Fiber Reference Collection,201,Rhone Poulenc Thermovyl Type L9S,Man-made,Chlorofiber,Chlorofiber,N/A,"2.4d. x 60 mm. Flame retardant. Shrinks at 98 C. Use: protective and thermal clothing, bedding.",No
