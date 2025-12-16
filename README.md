@@ -26,19 +26,19 @@ This repository contains the complete workflow for automated textile fiber class
 Experiments/
 ├── initial_analysis.ipynb                    # Exploratory data analysis and experimentation
 ├── initial_preprocessing_experiments.ipynb   # Preprocessing method comparison
-├── pretreatments.ipynb                       # Final preprocessing pipeline evaluation
 ├── initial_ml_classification.ipynb           # ML model development and testing
-├── data_analysis_and_figures.ipynb           # Results visualization for publication
+├── data_analysis_and_figures.ipynb           # Final dataset analysis checks and visualisations
+├── pretreatments_and_classification.ipynb    # Final preprocessing pipeline evaluation
 ├── spectral_visualisation.ipynb              # Spectral plotting utilities
 │
 ├── Preprocessing Pipeline - Script/          # Standalone batch processing tool
 │   ├── process_spectra_pipeline.py           # Main script
-│   ├── README.md                             # Script documentation
+│   ├── README.md                             # Script documentation and instructions
 │   ├── exported_csvs/                        # Raw FTIR CSV input
 │   ├── metadata/                             # Sample metadata
 │   └── ml_datasets/                          # Generated feature matrices
 │
-├── raw_csv_data/                             # Raw FTIR spectra (CSV format) from PerkinElmer Spectrum
+├── raw_csv_data/                             # Raw FTIR spectra (CSV format) from PerkinElmer Spectrum exports
 ├── ml_datasets/                              # Preprocessed datasets for ML
 ├── images/                                   # Output figures
 └── requirements.txt                          # Python dependencies
@@ -50,16 +50,17 @@ Experiments/
 
 **Fiber Collections:**
 - Microtrace Forensic Fiber Reference Collection (synthetic fibers)
-- Arbidar Natural Fibre Collection (natural fibers)
+- Microtrace Arbidar Natural Fibre Collection (natural fibers)
+- Bio-Couture & UNUSUWUL, associated with IMPACT+ (assorted fibers)
 
 **Sample Coverage:**
-- Natural fibers: Cotton, Linen, Jute, Silk, Wool, Rayon
-- Man-made fibers: Polyester, Nylon, Acrylic, Modacrylic
+- Natural fibers: Cotton, Linen, Jute, Silk, Wool
+- Man-made fibers: Polyester, Nylon, Acrylic, Modacrylic, Regenerated Cellulose
 
 **Spectral Data:**
 - Spectral range: 4000-400 cm⁻¹
-- Resolution: ~1 cm⁻¹
-- Multiple replicas per sample (3-5 scans)
+- Resolution: 4 cm⁻¹
+- Multiple replicas per sample (1-3 scans)
 
 ---
 
@@ -68,8 +69,8 @@ Experiments/
 | Pipeline | Methods | Output Format | Use Case |
 |----------|---------|---------------|----------|
 | **P1** | ALS + SNV | Absorbance | Baseline classification |
-| **P2** | ALS + SNV + D1 | 1st derivative | **Recommended** (best performance) |
-| **P3** | ALS + SNV + D2 | 2nd derivative | Comparative analysis |
+| **P2** | ALS + SNV + D1 | 1st derivative | SOTA |
+| **P3** | ALS + SNV + D2 | 2nd derivative | SOTA, Comparative analysis |
 
 **Preprocessing Details:**
 - **ALS (Asymmetric Least Squares):** Baseline correction (λ=1e6, p=0.001)
@@ -98,8 +99,8 @@ Experiments/
 
 ```bash
 # Clone repository
-git clone https://github.com/reeha-parkar/ftir-fiber-classification.git
-cd ftir-fiber-classification/Experiments
+git clone https://github.com/reeha-parkar/FasTEX-KCL.git
+cd FasTEX-KCL/
 
 # Install dependencies
 pip install -r requirements.txt
@@ -107,10 +108,9 @@ pip install -r requirements.txt
 
 ### Workflow
 
-1. **Exploratory Analysis:** Run `initial_analysis.ipynb`
-2. **Preprocessing Evaluation:** Run `pretreatments.ipynb`
-3. **Classification:** Run `initial_ml_classification.ipynb`
-4. **Results Visualization:** Run `data_analysis_and_figures.ipynb`
+1. **Exploratory Analysis:** Run `initial_analysis.ipynb` (For experimentations on different types of chemometric preprocessing techniques)
+2. **Preprocessing Evaluation and Classification:** Run `pretreatments_and_classification.ipynb`
+3. **Results Visualization:** Run `data_analysis_and_figures.ipynb`
 
 ### Batch Processing New Samples
 
@@ -153,12 +153,12 @@ If you use this work in your research, please cite:
 ## Author
 
 **Reeha Karim Parkar**  
-Department of Forensic Science, King's College London  
+ML Research Inern, King's College London  
 📧 reeha_karim.parkar@kcl.ac.uk | reehaparkar@gmail.com  
 🔗 [GitHub](https://github.com/reeha-parkar)
 
-**Supervisor:** Dr. Matteo Gallidabino  
-**Funding:** IMPACT+
+**Supervisor/PI:** Dr. Matteo Gallidabino, Department of Forensic Science, King's College London
+**Funding:** [IMPACT+](https://hosting.northumbria.ac.uk/impactplusnetwork/fastex/)
 
 ---
 
@@ -171,7 +171,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Microtrace LLC for the Forensic and Natural Fibre Collection
-- IMPACT+ for 
+- IMPACT+
 - King's College London, Department of Forensic Science
 
 ---
