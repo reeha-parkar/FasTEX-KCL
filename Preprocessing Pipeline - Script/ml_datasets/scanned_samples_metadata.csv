@@ -1,19 +1,19 @@
 Sample_ID,Source,Binder_ID,Origin,Type,Subtype,Details
-MTF_ACT_001,Forensic,1,Man-made,Cellulose Acetate,Cellulose Diacetate,Secondary acetate. Dyed green.
-MTF_ACT_002,Forensic,2,Man-made,Cellulose Acetate,Cellulose Triacetate,Triacetate. Bright. (150 2Z 40).
-MTF_ACT_003,Forensic,3,Man-made,Cellulose Acetate,Cellulose Diacetate,Secondary acetate.
-MTF_ACR_005,Forensic,5,Man-made,Acrylic,PAN/MA,Super Bright. PAN + MA + terpolymer (Nitric acid solvent). No DMF solvent residue. 3d x 64mm.
-MTF_ACR_009,Forensic,9,Man-made,Acrylic,PAN/MA,PAN + MA + basic dye site. 6.7dtex x 100mm. Add dyeing.
-MTF_ACR_017,Forensic,17.,Man-made,Acrylic,PAN/MMA/MA,PAN + MMA (sodium thiocyanate solvent). 2.2dtex. 3 of 9 in a set of fibers to illustrate denier range.
-MTA_ALP_073,Natural,7.3.,Natural,Protein,Alpaca,natural charcoal
-MTA_ALP_074,Natural,7.4.,Natural,Protein,Alpaca,natural ivory
-MTF_ARM_049,Forensic,49,Man-made,Aramid,Para-Aramid,"200d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 29 is used for ballistic apparel, ropes, thermal and cut resistant gloves."
-MTF_ARM_050,Forensic,50,Man-made,Aramid,Para-Aramid,"195d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 49 is used for reinforcing plastic composites in aircraft, marine and sporting applications."
-MTF_ARM_051,Forensic,51,Man-made,Aramid,Unspecified Aramid Type,Dogbone X-S. 200 dpf. Used especially in applications requiring resistance to high temperature.
-MTA_COT_062,Natural,6.2.,Natural,Cellulose,Cotton,natural brown fiber
-MTA_COT_071,Natural,7.1.,Natural,Cellulose,Cotton,rug wrap
+MTF_ACT_001,Microtrace Forensic Fiber Reference Collection,1,Man-made,Cellulose Acetate,Cellulose Diacetate,Secondary acetate. Dyed green.
+MTF_ACT_002,Microtrace Forensic Fiber Reference Collection,2,Man-made,Cellulose Acetate,Cellulose Triacetate,Triacetate. Bright. (150 2Z 40).
+MTF_ACT_003,Microtrace Forensic Fiber Reference Collection,3,Man-made,Cellulose Acetate,Cellulose Diacetate,Secondary acetate.
+MTF_ACR_005,Microtrace Forensic Fiber Reference Collection,5,Man-made,Acrylic,PAN/MA,Super Bright. PAN + MA + terpolymer (Nitric acid solvent). No DMF solvent residue. 3d x 64mm.
+MTF_ACR_009,Microtrace Forensic Fiber Reference Collection,9,Man-made,Acrylic,PAN/MA,PAN + MA + basic dye site. 6.7dtex x 100mm. Add dyeing.
+MTF_ACR_017,Microtrace Forensic Fiber Reference Collection,17.,Man-made,Acrylic,PAN/MMA/MA,PAN + MMA (sodium thiocyanate solvent). 2.2dtex. 3 of 9 in a set of fibers to illustrate denier range.
+MTA_ALP_073,Arbidar Natural Fibre Collection,7.3.,Natural,Protein,Alpaca,natural charcoal
+MTA_ALP_074,Arbidar Natural Fibre Collection,7.4.,Natural,Protein,Alpaca,natural ivory
+MTF_ARM_049,Microtrace Forensic Fiber Reference Collection,49,Man-made,Aramid,Para-Aramid,"200d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 29 is used for ballistic apparel, ropes, thermal and cut resistant gloves."
+MTF_ARM_050,Microtrace Forensic Fiber Reference Collection,50,Man-made,Aramid,Para-Aramid,"195d. Yarn. Kevlar is an industrial textile fiber with extremely high strength. Type 49 is used for reinforcing plastic composites in aircraft, marine and sporting applications."
+MTF_ARM_051,Microtrace Forensic Fiber Reference Collection,51,Man-made,Aramid,Unspecified Aramid Type,Dogbone X-S. 200 dpf. Used especially in applications requiring resistance to high temperature.
+MTA_COT_062,Arbidar Natural Fibre Collection,6.2.,Natural,Cellulose,Cotton,natural brown fiber
+MTA_COT_071,Arbidar Natural Fibre Collection,7.1.,Natural,Cellulose,Cotton,rug wrap
 BIO_LYO_044,Bio-Couture,4.4,Man-made,Regenerated Cellulose,Lyocell,"8/2, Red"
-MTF_LYO_055,Forensic,55,Man-made,Regenerated Cellulose,Lyocell,Round X-S. Staple.
-MTF_LYO_056,Forensic,56,Man-made,Regenerated Cellulose,Lyocell,Round X-S.; slightly irregular diameter.
-MTA_WOL_113,Natural,11.3,Natural,Protein,Wool,Cooperworth sheep wool
-MTA_WOL_143,Natural,14.3,Natural,Protein,Wool,"sheep, crepe"
+MTF_LYO_055,Microtrace Forensic Fiber Reference Collection,55,Man-made,Regenerated Cellulose,Lyocell,Round X-S. Staple.
+MTF_LYO_056,Microtrace Forensic Fiber Reference Collection,56,Man-made,Regenerated Cellulose,Lyocell,Round X-S.; slightly irregular diameter.
+MTA_WOL_113,Arbidar Natural Fibre Collection,11.3,Natural,Protein,Wool,Cooperworth sheep wool
+MTA_WOL_143,Arbidar Natural Fibre Collection,14.3,Natural,Protein,Wool,"sheep, crepe"

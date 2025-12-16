@@ -1,0 +1,14 @@
+# Core Scientific Computing
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.12.0
+
+# Machine Learning
+scikit-learn==1.4.1
+
+# Visualization
+matplotlib==3.8.3
+seaborn==0.13.2
+
+# Utilities
+pathlib==1.0.1

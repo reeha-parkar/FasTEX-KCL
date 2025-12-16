@@ -1,25 +1,40 @@
 """
-FTIR Spectra Processing Pipeline: ALS + SNV + D1
-=================================================
+FTIR Spectra Processing Pipeline: Multiple Preprocessing Pipelines
+=============================================================================================
 
-This script processes raw FTIR spectral CSV files through a complete preprocessing pipeline:
+This script processes raw FTIR spectral CSV files through multiple preprocessing pipelines:
 1. Load raw transmittance (%T) data
 2. Apply ALS baseline correction
 3. Apply SNV (Standard Normal Variate) normalization
-4. Apply 1st derivative (Savitzky-Golay)
+4. Apply derivatives (1st and 2nd derivative using Savitzky-Golay)
+
+Pipelines:
+- P1: ALS + SNV (baseline + scatter correction only)
+- P2: ALS + SNV + D1 (baseline + scatter + 1st derivative)
+- P3: ALS + SNV + D2 (baseline + scatter + 2nd derivative)
 
 Input:
 - Raw CSV files in 'exported_csvs/' folder
 - Existing metadata file: 'metadata/all_samples_metadata.csv'
 
 Output:
-- feature_matrix_raw_transmittance.csv
-- feature_matrix_baseline_corrected.csv
-- feature_matrix_preprocessed.csv (ALS+SNV+D1)
+In the ml_datasets/ folder, the following CSV files are generated:
+- feature_matrix_raw_transmittance.csv (%T vs wavenumber)
+- feature_matrix_baseline_corrected.csv (in %T)
+- feature_matrix_preprocessed_als_snv.csv (Pipeline 1: ALS+SNV)
+- feature_matrix_preprocessed_als_snv_d1.csv (Pipeline 2: ALS+SNV+D1)
+- feature_matrix_preprocessed_als_snv_d2.csv (Pipeline 3: ALS+SNV+D2)
 - scanned_samples_metadata.csv
 
-Author: Reeha Parkar
-Date: 15th December 2025
+Author: Reeha Karim Parkar
+GitHub: /reeha-parkar
+Email: reeha_karim.parkar@kcl.ac.uk | reehaparkar@gmail.com
+Supervisor/PI: Dr. Matteo Gallidabino, Dept. of Forensic Science, King's College London
+A project funded by: IMPACT+
+
+Version: 1.0
+Key Dependencies: python 3.12.0, pandas, numpy, scipy
+Last Modified: 16th December 2025 15:00 GMT
 """
 
 import pandas as pd
@@ -412,6 +427,34 @@ def extract_subtype_from_remarks(remarks, fibre_name):
     return fibre_name
 
 
+def get_full_collection_name(source):
+    """
+    Get full collection name from source identifier.
+    
+    Parameters:
+    -----------
+    source : str
+        Source identifier from CSV header
+    
+    Returns:
+    --------
+    str
+        Full collection name
+    """
+    source_lower = source.lower()
+    
+    if 'microtrace' in source_lower or 'forensic' in source_lower:
+        return 'Microtrace Forensic Fiber Reference Collection'
+    elif 'arbidar' in source_lower or 'natural' in source_lower:
+        return 'Arbidar Natural Fibre Collection'
+    elif 'bio-couture' in source_lower or 'biocouture' in source_lower:
+        return 'Bio-Couture'
+    elif 'unusuwul' in source_lower:
+        return 'UNUSUWUL'
+    else:
+        return source  # Return original if no match
+
+
 def generate_sample_id(source, fibre_type, binder_id):
     """
     Generate Sample_ID with structured format: CCC_TTT_NNN
@@ -434,7 +477,7 @@ def generate_sample_id(source, fibre_type, binder_id):
     # ADD MORE SOURCE MAPPINGS HERE AS NEEDED
     source_lower = source.lower()
     
-    if 'microtrace' in source_lower or 'forensic' in source_lower:
+    if 'microtrace' in source_lower or 'forensic' in source_lower or 'synthetic' in source_lower:
         collection_code = 'MTF'  # Microtrace Forensic Fiber Reference Collection
     elif 'arbidar' in source_lower or 'natural' in source_lower:
         collection_code = 'MTA'  # Arbidar Natural Fiber Collection
@@ -443,7 +486,7 @@ def generate_sample_id(source, fibre_type, binder_id):
     elif 'unusuwul' in source_lower:
         collection_code = 'UNU'  # UNUSUWUL
     else:
-        collection_code = 'INT'  # Internal/Other collection
+        collection_code = 'OTHER'  # Internal/Other collection
     
     # Get material code (TTT)
     material_code = FIBRE_ABBREVIATIONS.get(fibre_type, 'UNK')
@@ -595,6 +638,36 @@ def apply_first_derivative(spectrum, window_length=15, polyorder=3):
     return derivative
 
 
+def apply_second_derivative(spectrum, window_length=15, polyorder=3):
+    """
+    Apply Savitzky-Golay 2nd derivative.
+    
+    Parameters:
+    -----------
+    spectrum : ndarray
+        Input spectrum (SNV-normalized)
+    window_length : int
+        Window size for Savitzky-Golay filter (must be odd)
+    polyorder : int
+        Polynomial order for Savitzky-Golay filter
+    
+    Returns:
+    --------
+    derivative_spectrum : ndarray
+        2nd derivative spectrum
+    """
+    # Convert to absorbance
+    absorbance = -np.log10((spectrum + 1e-10) / 100.0)
+    
+    # Apply Savitzky-Golay 2nd derivative
+    derivative = savgol_filter(absorbance, window_length=window_length, 
+                               polyorder=polyorder, deriv=2)
+    
+    # Return derivative values (not converted back to %T format)
+    # Derivative values can be positive or negative
+    return derivative
+
+
 ###############################################################################
 # MAIN PROCESSING PIPELINE
 ###############################################################################
@@ -625,14 +698,20 @@ def main():
     print(f"Found {len(csv_files)} CSV files in {input_folder}/")
     print()
     
-    # Storage for datasets
+    ###########################################################################
+    # STORAGE INITIALISATION
+    ###########################################################################
+    
+    # Storage for ML dataset (one record per spectrum/replica)
     ml_records = []
+    
+    # Storage for metadata (one record per unique sample)
     metadata_records = []
-    seen_samples = {}
+    seen_samples = {}  # Track unique samples to avoid duplicates
     
     # Counters
-    spectrum_counter = 1
-    sample_counters = {}
+    spectrum_counter = 1  # Global spectrum counter (0001, 0002, ...)
+    sample_counters = {}  # Track replicas per sample
     
     # Reference wavenumbers
     wavenumbers_ref = None
@@ -716,11 +795,14 @@ def main():
             
             ml_records.append(ml_record)
             
-            # Add to metadata (only once per unique sample)
+            ###################################################################
+            # METADATA COLLECTION (One record per unique sample)
+            ###################################################################
+            # Only add metadata record if this is the first time seeing this sample
             if sample_id not in seen_samples:
                 metadata_record = {
                     'Sample_ID': sample_id,
-                    'Source': source,
+                    'Source': get_full_collection_name(source),
                     'Binder_ID': binder_id,
                     'Origin': origin,
                     'Type': fibre_type_hierarchical,
@@ -742,11 +824,17 @@ def main():
     print(f"Unique samples: {len(metadata_records)}")
     print()
     
-    # Create DataFrames
+    ###########################################################################
+    # CREATE DATAFRAMES FROM COLLECTED RECORDS
+    ###########################################################################
+    
+    # ML Dataset: Contains all spectra (including replicas)
     ml_dataset = pd.DataFrame(ml_records)
+    
+    # Metadata Dataset: Contains unique samples only (no replicas)
     metadata_dataset = pd.DataFrame(metadata_records)
     
-    # Get spectral columns
+    # Identify spectral columns (wavenumber columns)
     spectral_columns = [col for col in ml_dataset.columns if col not in 
                        ['Spectrum_ID', 'Sample_ID', 'Replica', 'Origin', 'Type', 'Subtype']]
     
@@ -762,7 +850,12 @@ def main():
     print(f"  Size: {raw_output_path.stat().st_size / 1024 / 1024:.2f} MB")
     print()
     
-    # Export scanned samples metadata
+    ###########################################################################
+    # EXPORT SCANNED SAMPLES METADATA (Unique samples only)
+    ###########################################################################
+    # This metadata file contains one row per unique sample (no replicas)
+    # Use this to understand sample origins and fiber classifications
+    
     metadata_output_path = output_folder / 'scanned_samples_metadata.csv'
     metadata_dataset.to_csv(metadata_output_path, index=False)
     print(f"Exported: {metadata_output_path}")
@@ -801,11 +894,51 @@ def main():
     print()
     
     print("=" * 80)
-    print("STEP 3: Applying ALS + SNV + D1 Pipeline")
+    print("STEP 3: Applying Pipeline 1 (ALS + SNV)")
     print("=" * 80)
     
-    # Apply full preprocessing pipeline (ALS + SNV + D1)
-    preprocessed_spectra = []
+    # Apply Pipeline 1: ALS + SNV (no derivative)
+    pipeline_1_spectra = []
+    
+    for idx, row in ml_dataset.iterrows():
+        # Start with raw transmittance
+        transmittance = row[spectral_columns].values.astype(np.float64)
+        
+        # Step 1: ALS baseline correction
+        baseline_corrected = apply_als_baseline_correction_transmittance(transmittance)
+        
+        # Step 2: SNV normalization
+        snv_normalized = apply_snv_normalization(baseline_corrected)
+        
+        # Convert to absorbance for output
+        absorbance = -np.log10((snv_normalized + 1e-10) / 100.0)
+        
+        pipeline_1_spectra.append(absorbance)
+        
+        if (idx + 1) % 10 == 0:
+            print(f"  Processed {idx + 1}/{len(ml_dataset)} spectra...")
+    
+    # Create Pipeline 1 dataset
+    ml_dataset_p1 = ml_dataset[['Spectrum_ID', 'Sample_ID', 'Replica', 
+                                'Origin', 'Type', 'Subtype']].copy()
+    
+    for i, col in enumerate(spectral_columns):
+        ml_dataset_p1[col] = [spec[i] for spec in pipeline_1_spectra]
+    
+    # Export Pipeline 1 dataset
+    p1_output_path = output_folder / 'feature_matrix_preprocessed_als_snv.csv'
+    ml_dataset_p1.to_csv(p1_output_path, index=False)
+    print(f"\nExported: {p1_output_path}")
+    print(f"  Shape: {ml_dataset_p1.shape}")
+    print(f"  Size: {p1_output_path.stat().st_size / 1024 / 1024:.2f} MB")
+    print()
+    
+    print("=" * 80)
+    print("STEP 4: Applying Pipeline 2 (ALS + SNV + D1)")
+    print("=" * 80)
+    
+    # Apply Pipeline 2: ALS + SNV + D1
+    pipeline_2_spectra = []
     
     for idx, row in ml_dataset.iterrows():
         # Start with raw transmittance
@@ -820,24 +953,64 @@ def main():
         # Step 3: 1st derivative (Savitzky-Golay)
         derivative = apply_first_derivative(snv_normalized, window_length=15, polyorder=3)
         
-        preprocessed_spectra.append(derivative)
+        pipeline_2_spectra.append(derivative)
         
         if (idx + 1) % 10 == 0:
             print(f"  Processed {idx + 1}/{len(ml_dataset)} spectra...")
     
-    # Create preprocessed dataset
-    ml_dataset_preprocessed = ml_dataset[['Spectrum_ID', 'Sample_ID', 'Replica', 
-                                         'Origin', 'Type', 'Subtype']].copy()
+    # Create Pipeline 2 dataset
+    ml_dataset_p2 = ml_dataset[['Spectrum_ID', 'Sample_ID', 'Replica', 
+                                'Origin', 'Type', 'Subtype']].copy()
     
     for i, col in enumerate(spectral_columns):
-        ml_dataset_preprocessed[col] = [spec[i] for spec in preprocessed_spectra]
+        ml_dataset_p2[col] = [spec[i] for spec in pipeline_2_spectra]
     
-    # Export preprocessed dataset
-    preprocessed_output_path = output_folder / 'feature_matrix_preprocessed.csv'
-    ml_dataset_preprocessed.to_csv(preprocessed_output_path, index=False)
-    print(f"\nExported: {preprocessed_output_path}")
-    print(f"  Shape: {ml_dataset_preprocessed.shape}")
-    print(f"  Size: {preprocessed_output_path.stat().st_size / 1024 / 1024:.2f} MB")
+    # Export Pipeline 2 dataset
+    p2_output_path = output_folder / 'feature_matrix_preprocessed_als_snv_d1.csv'
+    ml_dataset_p2.to_csv(p2_output_path, index=False)
+    print(f"\nExported: {p2_output_path}")
+    print(f"  Shape: {ml_dataset_p2.shape}")
+    print(f"  Size: {p2_output_path.stat().st_size / 1024 / 1024:.2f} MB")
+    print()
+    
+    print("=" * 80)
+    print("STEP 5: Applying Pipeline 3 (ALS + SNV + D2)")
+    print("=" * 80)
+    
+    # Apply Pipeline 3: ALS + SNV + D2
+    pipeline_3_spectra = []
+    
+    for idx, row in ml_dataset.iterrows():
+        # Start with raw transmittance
+        transmittance = row[spectral_columns].values.astype(np.float64)
+        
+        # Step 1: ALS baseline correction
+        baseline_corrected = apply_als_baseline_correction_transmittance(transmittance)
+        
+        # Step 2: SNV normalization
+        snv_normalized = apply_snv_normalization(baseline_corrected)
+        
+        # Step 3: 2nd derivative (Savitzky-Golay)
+        derivative = apply_second_derivative(snv_normalized, window_length=15, polyorder=3)
+        
+        pipeline_3_spectra.append(derivative)
+        
+        if (idx + 1) % 10 == 0:
+            print(f"  Processed {idx + 1}/{len(ml_dataset)} spectra...")
+    
+    # Create Pipeline 3 dataset
+    ml_dataset_p3 = ml_dataset[['Spectrum_ID', 'Sample_ID', 'Replica', 
+                                'Origin', 'Type', 'Subtype']].copy()
+    
+    for i, col in enumerate(spectral_columns):
+        ml_dataset_p3[col] = [spec[i] for spec in pipeline_3_spectra]
+    
+    # Export Pipeline 3 dataset
+    p3_output_path = output_folder / 'feature_matrix_preprocessed_als_snv_d2.csv'
+    ml_dataset_p3.to_csv(p3_output_path, index=False)
+    print(f"\nExported: {p3_output_path}")
+    print(f"  Shape: {ml_dataset_p3.shape}")
+    print(f"  Size: {p3_output_path.stat().st_size / 1024 / 1024:.2f} MB")
     print()
     
     print("=" * 80)
@@ -848,9 +1021,13 @@ def main():
     print(f"   - Raw transmittance data (%T)")
     print(f"2. {baseline_output_path.name}")
     print(f"   - ALS baseline-corrected data (%T)")
-    print(f"3. {preprocessed_output_path.name}")
-    print(f"   - Fully preprocessed data (ALS + SNV + D1)")
-    print(f"4. {metadata_output_path.name}")
+    print(f"3. {p1_output_path.name}")
+    print(f"   - Pipeline 1: ALS + SNV (absorbance)")
+    print(f"4. {p2_output_path.name}")
+    print(f"   - Pipeline 2: ALS + SNV + D1 (1st derivative)")
+    print(f"5. {p3_output_path.name}")
+    print(f"   - Pipeline 3: ALS + SNV + D2 (2nd derivative)")
+    print(f"6. {metadata_output_path.name}")
     print(f"   - Metadata for scanned samples")
     print()
     print("Summary Statistics:")
