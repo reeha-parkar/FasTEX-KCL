@@ -174,6 +174,7 @@ ML Research Inern, King's College London
 🔗 [GitHub](https://github.com/reeha-parkar)
 
 **Supervisor/PI:** Dr. Matteo Gallidabino, Department of Forensic Science, King's College London
+
 **Funding:** [IMPACT+](https://hosting.northumbria.ac.uk/impactplusnetwork/fastex/)
 
 ---
