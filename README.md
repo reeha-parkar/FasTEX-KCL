@@ -138,9 +138,25 @@ See [`requirements.txt`](requirements.txt) for complete list with versions.
 
 If you use this work in your research, please cite:
 
+**Dataset:**
+```bibtex
+@dataset{parkar2025dataset,
+  author = {Parkar, Reeha and Jain, Angelica and Prendergast-Miller, Miranda and Stanton, Thomas and Sheridan, Kelly and Gallidabino, Matteo},
+  title = {A dataset of infrared (ATR-FTIR) spectra for textile fibres of natural and man-made origin},
+  year = {2025},
+  publisher = {Mendeley Data},
+  version = {V1},
+  doi = {10.17632/rx3fjgz96x.1},
+  url = {https://doi.org/10.17632/rx3fjgz96x.1}
+}
+```
+
+> **Note:** A data descriptor paper for this dataset is currently under review at *Data in Brief* journal. This citation will be updated upon publication.
+
+**Code Repository:**
 ```bibtex
 @misc{parkar2025ftir,
-  author = {Parkar, Reeha Karim},
+  author = {Parkar, Reeha},
   title = {FTIR-Based Textile Fiber Classification using Machine Learning},
   year = {2025},
   publisher = {GitHub},
