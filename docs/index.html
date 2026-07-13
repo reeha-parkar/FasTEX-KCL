@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--
+  Static landing page for GitHub Pages.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FasTEX FTIR Spectral Database | King's College London</title>
+<meta name="description" content="A reference collection of averaged, baseline-corrected ATR-FTIR spectra for natural and man-made textile fibres, King's Forensics, King's College London.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --kcl-red: #E12726;
+    --kcl-red-dark: #B31E1D;
+    --ink: #1A1A1A;
+    --body-text: #34363A;
+    --muted: #6B6E73;
+    --border: #E1E3E6;
+    --bg-subtle: #F7F7F8;
+    --font-serif: 'Source Serif 4', Georgia, serif;
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    color: var(--body-text);
+    background: #FFFFFF;
+    line-height: 1.6;
+  }
+  a { color: var(--kcl-red-dark); }
+  a:hover { color: var(--kcl-red); }
+
+  .topbar {
+    background: var(--ink);
+    border-bottom: 3px solid var(--kcl-red);
+    padding: 0.75rem 1.5rem;
+  }
+  .topbar-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem 1.5rem;
+  }
+  .wordmark { font-family: var(--font-serif); font-weight: 700; color: #FFFFFF; font-size: 1.05rem; }
+  .department { font-size: 0.8rem; color: #C7C9CC; }
+
+  .hero {
+    background: var(--bg-subtle);
+    border-bottom: 1px solid var(--border);
+    padding: 3.5rem 1.5rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-family: var(--font-serif);
+    font-size: 2.4rem;
+    color: var(--ink);
+    margin: 0 0 0.75rem 0;
+  }
+  .hero p {
+    max-width: 40rem;
+    margin: 0 auto 2rem auto;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  .cta {
+    display: inline-block;
+    background: var(--kcl-red);
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.85rem 1.75rem;
+    border-radius: 2px;
+    font-size: 1rem;
+  }
+  .cta:hover { background: var(--kcl-red-dark); color: #FFFFFF; }
+  .cta-note {
+    display: block;
+    /* Same max-width + auto centering as .hero p above, so this note
+       lines up on the same left/right edges as the paragraph instead of
+       stretching to the full width of .hero (which has no width limit
+       of its own). Without this, the note reads as a different, wider
+       column than the text above it. */
+    max-width: 40rem;
+    margin: 0.75rem auto 0 auto;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+  main h2 {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    color: var(--ink);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+  main ul { padding-left: 1.25rem; }
+  main li { margin-bottom: 0.4rem; }
+
+  footer {
+    background: var(--ink);
+    color: #ACAFB4;
+    padding: 2rem 1.5rem;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+  footer .footer-inner { max-width: 760px; margin: 0 auto; }
+  footer a { color: #E7E8EA; }
+</style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div>
+        <span class="wordmark">King's College London</span>
+      </div>
+      <span class="department">Department of Analytical, Environmental &amp; Forensic Sciences</span>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>FasTEX FTIR Spectral Database</h1>
+    <p>
+      A reference collection of averaged, baseline-corrected ATR-FTIR spectra for
+      natural and man-made textile fibres, developed by King's Forensics,
+      King's College London.
+    </p>
+    <!-- TODO: replace the placeholder href below with your deployed Render
+         (or other host) URL once app.py is live, e.g.
+         https://fastex-ftir-database.onrender.com -->
+    <a class="cta" id="launch-link" href="https://fastex-ftir-database.onrender.com">
+      Open the interactive database &rarr;
+    </a>
+    <span class="cta-note">
+      The interactive site (spectrum viewer, Absorbance/Transmittance toggle, peak
+      detection) runs as a separate live application -- this page is a static
+      landing page only. See the note in this file's source if the link above
+      looks out of date.
+    </span>
+  </div>
+
+  <main>
+    <h2>About this dataset</h2>
+    <p>
+      Every spectrum in the database is the baseline-corrected average of the
+      replicate ATR-FTIR measurements recorded for one fibre subtype, acquired
+      on a PerkinElmer Frontier FT-IR spectrometer with a single-reflection
+      diamond ATR accessory (4000&ndash;550 cm&#8315;&sup1;, 4 cm&#8315;&sup1; resolution).
+      Fibres are organised Origin &rarr; Type &rarr; Subtype, following the
+      classification scheme described in the dataset's data descriptor
+      article and informed by ISO 2076.
+    </p>
+
+    <h2>Resources</h2>
+    <ul>
+      <li><a href="https://github.com/reeha-parkar/FasTEX-KCL" target="_blank" rel="noopener noreferrer">FasTEX-KCL GitHub repository</a> &mdash; preprocessing pipeline, classification notebooks, and this site's source code.</li>
+      <li><a href="https://doi.org/10.17632/rx3fjgz96x.3" target="_blank" rel="noopener noreferrer">Full dataset on Mendeley Data</a> &mdash; raw spectra, per-replicate baseline-corrected spectra, and chemometrically pre-processed feature matrices.</li>
+      <li><a href="https://doi.org/10.1016/j.dib.2026.112594" target="_blank" rel="noopener noreferrer">Data descriptor article, Data in Brief 65 (2026) 112594</a> &mdash; full methodology.</li>
+      <li><a href="https://www.kcl.ac.uk/forensics" target="_blank" rel="noopener noreferrer">King's Forensics</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      Data: Parkar, R., Jain, A., Prendergast-Miller, M., Stanton, T., Sheridan, K.J.,
+      Gallidabino, M.D. (2026). Infrared spectral data of natural and man-made textile
+      fibres for material identification and classification. Data in Brief, 65, 112594.
+      <a href="https://doi.org/10.1016/j.dib.2026.112594" target="_blank" rel="noopener noreferrer">doi.org/10.1016/j.dib.2026.112594</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
